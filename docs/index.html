@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="header">
+            <div class="logo">Raman.</div>
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
+    <div class="profile">
+        <img src="picture.jpeg" alt="Profile Picture">
+        <div class="p-text">
+            <h1>Hi, I'm Raman</h1>
+            <p>A passionate full-stack developer with a love for creating dynamic and responsive web applications.</p>
+            <a href="resume.pdf" download class="btn">Download Resume</a>
+
+        </div>
+    </div>
+
+    <section id="about">
+        <h3>About Me</h3>
+        <div class="about-content">
+            <img src="picture2.jpg" alt="About Picture">
+            <p>
+                I'm a dedicated developer with a strong background in Java and web development. My expertise includes working with various technologies such as Core Java, HTML, CSS, JavaScript, and more.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h3>Skills</h3>
+        <div class="skills">
+            <ul>
+                <li>Core Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Mysql</li>
+                
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h3>Projects</h3>
+        <div class="projects">
+            <div class="project-item">
+                <h4>Todo list</h4>
+               
+                <p>The To-Do List Web App is a lightweight, user-friendly application developed using HTML, CSS, and JavaScript that allows users to manage their daily tasks efficiently. The app enables users to add new tasks, mark them as completed, 
+                    
+                and delete tasks </p>
+            </div>
+            <div class="project-item">
+                <h4>Tic Tac Toe</h4>
+                
+                <p>Developed a console-based Tic Tac Toe game using Java. The program allows two players to take turns placing X or O, validates moves, and determines the winner or a draw. Implemented game logic using arrays and condition checking, strengthening problem-solving and basic OOP skills.
+
+</p>
+            </div>
+        </div>
+    </section>
+
+  <section id="contact">
+  <h3>Contact Me</h3>
+  <div class="contact-container">
+    <form class="contact-form" action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+</body>
+</html>
